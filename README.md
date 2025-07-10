@@ -1,3 +1,3 @@
 <div align="center">
-  <img alt="Demo" src="./public/demo.png" />
+  <img alt="Demo" src="./src//Assets/icons/demo.png" />
 </div>
