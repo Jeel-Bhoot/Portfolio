@@ -7,30 +7,9 @@ export default function Projects() {
   const projects = [
     {
       id: 0,
-      title: data.projects.reactTemplate,
-      link: "https://www.github.com/abhishobhashana/react-template",
-      desc: "React-Template is easy to use, has all files having folder structure that makes it easily changeable.",
-      tech: ["JavaScript", "React", "Tailwind CSS"],
-    },
-    {
-      id: 1,
       title: data.projects.pxToRem,
-      link: "https://www.github.com/abhishobhashana/px-to-rem",
+      link: "https://www.github.com/Jeel-Bhoot/PX-to-REM",
       desc: "PX to REM Converter converts pixels to the CSS unit REM. The conversion is based on the default font-size of 16px pixel.",
-      tech: ["JavaScript", "React", "Tailwind CSS"],
-    },
-    {
-      id: 2,
-      title: data.projects.resumeKeywords,
-      link: "https://www.github.com/abhishobhashana/ResumeKeywords",
-      desc: "Resume Keywords helps tailor your resume to individual job postings using AI and NLP. Provides most focused keywords from job description.",
-      tech: ["JavaScript", "React", "Tailwind CSS"],
-    },
-    {
-      id: 3,
-      title: data.projects.codeEditor,
-      link: "https://www.github.com/abhishobhashana/Code-Editor",
-      desc: "An online code editor which supports HTML, CSS and JavaScript Development and Markdown editor for generating readme.",
       tech: ["JavaScript", "React", "Tailwind CSS"],
     },
   ];
@@ -43,7 +22,8 @@ export default function Projects() {
         <h1 className="text-3xl sm:text-4xl font-displayMedium tracking-tight dark:text-white text-secondary">
           {data.projects.projectsTitle}
         </h1>
-        <div className="grid lg:grid-cols-2 md:grid-cols-2 gap-8 text-md leading-6">
+        {/* <div className="grid lg:grid-cols-2 md:grid-cols-2 gap-8 text-md leading-6"> */}
+        <div className="flex gap-8 text-md leading-6">
           {projects.map((project) => {
             return (
               <div

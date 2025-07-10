@@ -4,9 +4,11 @@ import data from "../Data/Data.json";
 export default function About() {
   const skills = [
     "JavaScript (ES6+)",
-    "TypeScript",
     "React",
     "Redux",
+    "JQuery",
+    "HTML",
+    "CSS/Sass",
     "Git",
     "Figma",
   ];
@@ -38,12 +40,12 @@ export default function About() {
             {data.about.skills}
           </span>
 
-          <ul className="w-fit skills-list grid lg:grid-rows-2 grid-flow-col sm:grid-rows-3 gap-x-14">
+          <ul className="skills-list grid grid-rows-4 grid-flow-col">
             {skills.map((skill, id) => {
               return (
                 <li
                   key={id}
-                  className="font-mono before:content-['▹'] relative before:mr-2 text-sm dark:text-light-grey-third text-light-grey-forth leading-loose"
+                  className="font-mono before:content-['▹'] relative before:mr-2 text-sm text-slate-400 leading-loose"
                 >
                   {skill}
                 </li>

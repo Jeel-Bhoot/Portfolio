@@ -8,24 +8,17 @@ export default function Experience() {
       name: data.experience.techFlitter,
       href: "https://www.thetfpl.com/",
       designation: data.experience.dev,
-      desc: "Write modern, performant and robust code for a diverse array of client and internal projects, Work with a variety of different languages, frameworks and content management systems such as JavaScript, TypeScript and React, Worked with a team of 5 members and provided end-to-end solutions for clients",
-      year: "Feb 2022 — Present",
+      desc: "Write modern, performant and robust code for a diverse array of client and internal projects, Work with a variety of different languages, frameworks and content management systems such as JavaScript and React, Worked with a team of 5 members and provided end-to-end solutions for clients",
+      year: "June 2022 — Present",
     },
+
     {
       id: 1,
-      name: data.experience.selfEmployed,
-      href: "https://www.novatrice.com/",
-      desc: "Rendered technical expertise in Software Development Life Cycle to develop applications based on specific client requirements, Designed assessment forms for different customers that reduces processing time by 20%.",
-      designation: data.experience.dev,
-      year: "Apr 2020 — Jan 2021",
-    },
-    {
-      id: 2,
-      name: data.experience.novatrice,
-      href: "https://www.novatrice.com/",
-      desc: "Worked with a team of three designers to build a marketing website and ecommerce platform for government, Interfaced with clients on a weekly basis, providing technological expertise and knowledge, Debugged and troubleshoot code related errors to ensure application remained 70% bug free",
+      name: data.experience.zestBrains,
+      href: "https://www.zestbrains.com/",
+      desc: "Completed a hands-on internship focused on React JS development. Contributed to building dynamic and responsive web interfaces, collaborated with senior developers to implement reusable components, and optimized front-end performance. Gained practical experience in state management, API integration, and component-based architecture.",
       designation: data.experience.frontDev,
-      year: "Apr 2020 — Jan 2021",
+      year: "Jan 2022 — May 2022",
     },
   ];
 

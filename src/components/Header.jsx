@@ -73,7 +73,7 @@ export default function Header() {
         })}
 
         <a
-          href="https://abhishobhashana.netlify.app/resume.pdf"
+          href="/Jeel-Bhoot-CV.pdf"
           target="_blank"
           className="lg:flex sm:hidden md:hidden text-sm cursor-pointer text-light-grey-third dark:text-light-grey-second hover:text-light-white-second"
         >
@@ -126,7 +126,7 @@ export default function Header() {
                       })}
 
                       <a
-                        href="https://abhishobhashana.netlify.app/resume.pdf"
+                        href="/Jeel-Bhoot-CV.pdf"
                         target="_blank"
                         className="w-fit text-3xl font-displayMedium cursor-pointer text-light-grey dark:text-light-white-second focus:outline-none"
                       >

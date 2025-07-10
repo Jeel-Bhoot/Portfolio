@@ -8,6 +8,10 @@ export default function Home() {
         className="flex flex-col gap-4 justify-center max-w-4xl min-h-screen mx-auto lg:p-0 sm:p-8 sm:pt-20"
         id="#"
       >
+        <code className="font-medium text-sm tracking-tight text-secondary dark:text-white">
+          {data.greetings}
+        </code>
+
         <span className="font-displayMedium lg:text-6xl sm:text-4xl tracking-tight text-secondary dark:text-white">
           {data.app}
         </span>
