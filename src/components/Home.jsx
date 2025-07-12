@@ -1,5 +1,6 @@
 import React from "react";
 import data from "../Data/Data.json";
+import Typewriter from "typewriter-effect";
 
 export default function Home() {
   return (
@@ -17,7 +18,13 @@ export default function Home() {
         </span>
 
         <span className="lg:text-3xl sm:text-2xl text-light-grey dark:text-light-white-second">
-          {data.role}
+          <Typewriter
+            options={{
+              strings: data.roles,
+              autoStart: true,
+              loop: true,
+            }}
+          />
         </span>
 
         <span className="text-[17px] max-w-xl mx-auto text-light-grey dark:text-light-grey-third">

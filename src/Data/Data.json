@@ -3,7 +3,7 @@
   "logo": "Logo",
   "home": "Home",
   "greetings": "Hi, my name is",
-  "role": "Frontend developer",
+  "roles": ["React JS Developer", "Front-End Software Developer"],
   "intro": "I'm a React JS developer and design-focused front-end software engineer, passionate about crafting beautiful, intuitive interfaces and seamless user experiences.",
   "about": {
     "aboutTitle": "About",
@@ -29,7 +29,8 @@
   },
    "projects": {
     "projectsTitle": "Projects",
-    "pxToRem": "PX to REM Converter"
+    "pxToRem": "PX to REM Converter",
+    "reactTemplate": "React Template"
   },
   "resume": "Resume",
   "notFound": {
