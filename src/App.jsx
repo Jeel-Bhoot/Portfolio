@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter } from "react-router-dom";
 import Layout from "./components/Layout";
+import { Helmet } from "react-helmet";
 import data from "./Data/Data.json";
 
 export default function App() {
