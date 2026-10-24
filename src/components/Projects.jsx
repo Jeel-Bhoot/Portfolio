@@ -6,6 +6,13 @@ import Link from "../Assets/icons/Link";
 export default function Projects() {
   const projects = [
     {
+      id: 2,
+      title: data.projects.critiq,
+      link: "https://ai-frontend-code-reviewer.vercel.app",
+      desc: "Critiq reviews React files directly in the browser using the Claude API, flagging performance, accessibility, security and best-practice issues, each tied to the exact line with a one-click suggested fix.",
+      tech: ["Next.js", "React", "Claude API", "Tailwind CSS"],
+    },
+    {
       id: 0,
       title: data.projects.reactTemplate,
       link: "https://www.github.com/Jeel-Bhoot/React-Template",

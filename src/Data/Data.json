@@ -29,6 +29,7 @@
   },
    "projects": {
     "projectsTitle": "Projects",
+    "critiq": "Critiq - AI Frontend Code Reviewer",
     "pxToRem": "PX to REM Converter",
     "reactTemplate": "React Template"
   },
