@@ -1,5 +1,5 @@
 import React from "react";
-import data from "../Data/Data.json";
+import data from "@/data/data.json";
 
 export default function Contact() {
   return (
@@ -14,9 +14,9 @@ export default function Contact() {
         <p className="w-full mt-6 max-w-lg mx-auto text-[17px] text-light-grey-third dark:text-light-grey-forth">
           {data.contact.message}
         </p>
-        <button className="w-fit mt-6 px-6 py-1.5 rounded-xl bg-blue">
+        <button className="w-fit mt-6 px-6 py-1.5 rounded-xl bg-[#1877F2]">
           <a
-            href="mailto:jeelbhoot0jb@gmail.com"
+            href="mailto:jeelbhut30b@gmail.com"
             className="text-white text-lg font-sansMedium tracking-tight"
           >
             {data.contact.hello}

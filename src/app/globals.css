@@ -1,0 +1,97 @@
+@import "tailwindcss";
+
+@theme {
+  --color-*: initial;
+  --color-default: rgba(0, 0, 0, 1);
+  --color-primary: rgba(26, 26, 26, 1);
+  --color-secondary: rgb(38, 38, 38);
+  --color-white: rgba(255, 255, 255, 1);
+  --color-light-white: rgb(247, 247, 245);
+  --color-light-white-second: rgb(227, 227, 227);
+  --color-light-white-third: rgb(243, 242, 247);
+  --color-border: rgba(17, 17, 17, 0.25);
+  --color-grey: rgba(28, 28, 30);
+  --color-light-secondary: rgba(28, 28, 30);
+  --color-light-grey: rgba(67, 67, 69);
+  --color-light-grey-second: rgb(168, 168, 174);
+  --color-light-grey-third: rgb(108, 108, 108);
+  --color-light-grey-forth: rgb(143, 142, 147);
+  --color-dark-grey: rgb(67, 67, 69);
+  --color-blue: rgb(0, 122, 255);
+  --color-seperator: rgba(60, 60, 67, 0.36);
+  --color-dark-seperator: rgba(84, 84, 88, 0.65);
+
+  --breakpoint-*: initial;
+  --breakpoint-sm: 320px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
+  --breakpoint-2xl: 1536px;
+
+  --animate-spin-slow: spin 2s linear infinite;
+}
+
+/* Font variables come from next/font/local in layout.jsx */
+@theme inline {
+  --font-*: initial;
+  --font-sans: var(--font-sf-pro-text), sans-serif;
+  --font-sansMedium: var(--font-sf-pro-text-medium), sans-serif;
+  --font-display: var(--font-sf-pro-display), sans-serif;
+  --font-displayMedium: var(--font-sf-pro-display-medium), sans-serif;
+  --font-mono: var(--font-sf-mono), monospace;
+}
+
+@layer base {
+  html {
+    -webkit-tap-highlight-color: transparent;
+    font-family: var(--font-sans);
+    scroll-behavior: smooth;
+  }
+  h1 {
+    font-family: var(--font-display);
+  }
+  code {
+    font-family: var(--font-mono);
+  }
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  color: rgb(24, 119, 242);
+}
+
+.underline-link {
+  position: relative;
+  display: inline-block;
+}
+
+.underline-link:after {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: rgb(247, 247, 245);
+  content: "";
+  opacity: 0;
+  transition:
+    height 0.3s,
+    opacity 0.3s,
+    transform 0.3s;
+  transform: translateY(-5px);
+}
+
+.underline-link:focus:after,
+.underline-link:hover:after {
+  height: 1px;
+  border-radius: 4px;
+  opacity: 1;
+  transform: translateY(-2px);
+}

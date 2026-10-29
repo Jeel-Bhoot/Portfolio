@@ -2,9 +2,13 @@
   "app": "Jeel Bhoot",
   "logo": "Logo",
   "home": "Home",
-  "greetings": "Hi, my name is",
-  "roles": ["React JS Developer", "Front-End Software Developer"],
-  "intro": "I'm a React JS developer and design-focused front-end software engineer, passionate about crafting beautiful, intuitive interfaces and seamless user experiences.",
+  "greetings": "Hello, my name is",
+  "roles": [
+    "Front-End Software Developer",
+    "React JS Developer",
+    "Next JS Developer"
+  ],
+  "intro": "I’m a Front-End Developer specializing in React JS and Next JS, passionate about building modern, scalable, and high-performance web applications. I combine strong technical expertise with a design-focused mindset to create pixel-perfect, responsive interfaces and intuitive user experiences. With a focus on clean, maintainable code, reusable components, and performance optimization, I strive to transform ideas into seamless, engaging, and visually compelling digital experiences.",
   "about": {
     "aboutTitle": "About",
     "header": "Get started with React-Template",
@@ -20,16 +24,16 @@
     "message": "My inbox is always open, Whether you have any suggestions or just want to say hi, I'll try my best to get back to you!",
     "hello": "Say Hello"
   },
-   "experience": {
+  "experience": {
     "experienceTitle": "Experience",
     "zestBrains": "Zest Brains PVT LTD",
     "techFlitter": "Techflitter Solutions PVT LTD",
-    "dev": "Software Engineer",
+    "dev": "Software Development Engineer",
     "frontDev": "Front End Developer"
   },
-   "projects": {
+  "projects": {
     "projectsTitle": "Projects",
-    "critiq": "Critiq - AI Frontend Code Reviewer",
+    "codeLensAi": "CodeLens-AI - AI Frontend Code Reviewer",
     "pxToRem": "PX to REM Converter",
     "reactTemplate": "React Template"
   },

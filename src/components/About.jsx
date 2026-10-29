@@ -1,5 +1,5 @@
 import React from "react";
-import data from "../Data/Data.json";
+import data from "@/data/data.json";
 import {
   SiJavascript,
   SiTypescript,
@@ -180,7 +180,7 @@ export default function About() {
                       return (
                         <li
                           key={name}
-                          className="inline-flex items-center gap-2 rounded-full border border-seperator dark:border-dark-seperator bg-white dark:bg-light-secondary px-3 py-1.5 text-sm leading-5 text-secondary dark:text-light-white-second shadow-sm transition duration-200 hover:-translate-y-0.5 hover:shadow-md"
+                          className="inline-flex items-center gap-2 rounded-full border border-seperator dark:border-dark-seperator bg-white dark:bg-light-secondary px-3 py-1.5 text-sm leading-5 text-secondary dark:text-light-white-second shadow-xs transition duration-200 hover:-translate-y-0.5 hover:shadow-md"
                         >
                           <Icon
                             aria-hidden="true"

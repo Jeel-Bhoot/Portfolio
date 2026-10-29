@@ -1,5 +1,5 @@
 import React from "react";
-import data from "../Data/Data.json";
+import data from "@/data/data.json";
 
 export default function Experience() {
   const experiences = [
@@ -36,7 +36,7 @@ export default function Experience() {
           {experiences.map((experience) => {
             return (
               <div
-                className="p-6 bg-white dark:bg-light-secondary shadow-lg rounded-lg"
+                className="p-6 bg-white dark:bg-light-secondary shadow-lg rounded-lg transition-[translate,box-shadow] duration-200 will-change-[translate] hover:-translate-y-1 hover:shadow-xl"
                 key={experience.id}
               >
                 <div className="lg:max-w-4xl flex lg:flex-row sm:flex-col lg:items-center lg:justify-between sm:gap-2">
@@ -50,9 +50,7 @@ export default function Experience() {
                       {experience.name}
                     </a>
                   </h1>
-                  <code className="text-sm dark:text-light-grey-third text-light-grey-second">
-                    {experience.year}
-                  </code>
+                  <code>{experience.year}</code>
                 </div>
                 <div>
                   <span className="text-[17px] dark:text-light-white-second text-secondary">
@@ -60,7 +58,7 @@ export default function Experience() {
                   </span>
                 </div>
                 <div className="mt-4">
-                  <span className="text-[17px] leading-2 text-light-grey-third dark:text-light-grey-forth">
+                  <span className="text-[17px] text-light-grey-third dark:text-light-grey-forth">
                     {experience.desc}
                   </span>
                 </div>
